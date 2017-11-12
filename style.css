@@ -75,7 +75,7 @@
     	margin-left: 20px;
     	width: 30px;
     	height: 30px;
-    	background: url(https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/sprite.png);
+    	background: url('assets/images/sprite.png');
     	background-position: 0px -400px;
     }
     .header #gameIco {
@@ -83,7 +83,7 @@
     	width: 40px;
     	height: 40px;
     	margin-left: 20px;
-    	background: url(https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/sprite.png);
+    	background: url('assets/images/sprite.png');
     	background-position: -200px -1200px;
     }
     .header #search {
@@ -91,7 +91,7 @@
     	width: 30px;
     	height: 30px;
     	margin: 15px;
-    	background: url(https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/sprite.png);
+    	background: url('assets/images/sprite.png');
     	background-position: -200px -400px;
     }
     .header .ico {
@@ -195,7 +195,7 @@
     	-ms-background-size: 100% 100%;
     	-o-background-size: 100% 100%;
     	background-size: 100% 100%;
-    	background-image: url('https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/carousel/44610515_BridgeConstructorStunts_1024x500-min.png');
+    	background-image: url('assets/images/carousel/44610515_BridgeConstructorStunts_1024x500-min.png');
     }
     .slideShowSpace .balls {
     	position: relative;
@@ -310,7 +310,7 @@
     	overflow: hidden;
     	width: 15px;
     	height: 15px;
-    	background: url(https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/sprite.png);
+    	background: url('assets/images/sprite.png');
     	background-position: 0px -1200px;
     }
     .card .rate .hotstar {
@@ -318,7 +318,7 @@
     	overflow: hidden;
     	width: 15px;
     	height: 15px;
-    	background: url(https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/sprite.png);
+    	background: url('assets/images/sprite.png');
     	background-position: -400px -1000px;
     }
     .carousel {
@@ -407,7 +407,7 @@
     	overflow: hidden;
     	width: 40px;
     	height: 40px;
-    	background: url(https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/sprite.png);
+    	background: url('assets/images/sprite.png');
     	background-position: 0px 0px;
     }
     .splitscreen .division1 .help .ico {
@@ -415,7 +415,7 @@
     	overflow: hidden;
     	width: 40px;
     	height: 40px;
-    	background: url(https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/sprite.png);
+    	background: url('assets/images/sprite.png');
     	background-position: -600px 0px;
     }
     .normaltext, .normaltext:hover {
