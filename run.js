@@ -72,7 +72,7 @@ $(document).ready(function() {
 	//Changing background image
 	function changeImg(n) {
 		$(".slides").fadeTo('1000', 0, function() {
-			$(this).css('background-image', 'url(https://raw.githubusercontent.com/lkareeml/frontend_engineer_assignment/master/assets/images/carousel/' + urls[n] + ')');
+			$(this).css('background-image', 'url(assets/images/carousel/' + urls[n] + ')');
 		}).fadeTo('slow', 1);
 	}
 	//Main function of SlideShow
