@@ -1,0 +1,1383 @@
+<!--====================================
+**This Code is written by Kareem Atef **
+**->https://github.com/lkareeml       **
+**->Kareem.atef@yahoo.com             **
+**->+2 01110973265                    **
+**->+2 01092840909                    **
+=====================================-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Games Shop</title>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link rel="icon" href="Controller256.ico">
+	<link href="assets/plugins/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/plugins/flickity.min.css" rel="stylesheet">
+	<link href="assets/plugins/normalize.css" rel="stylesheet">
+   	<link href="style.min.css" rel="stylesheet">
+	<script src="assets/plugins/jquery-3.2.1.min.js"></script>
+	<script src="run.min.js"></script>
+	<script src="assets/plugins/flickity.pkgd.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<!--============================= Start Header ====================================-->
+		<div class="header">
+			<div class="row">
+				<div class="ico" id="menu"></div>
+				<div class="ico" id="gameIco"></div>
+				<div id="title">
+					<p class="unselectable">Games</p>
+				</div>
+				<div class="ico" id="search"></div>
+			</div>
+		</div><!--============================= End Header ======================================-->
+		<!--============================= Start Navbar ====================================-->
+		<div class="navbar" id="navbarID">
+			<a href="#Catigories">Catigories</a> <a class="active" href="#Highlights">Highlights</a> <a href="#Top">Top</a> <a href="#New">New</a> <a href="#Recommended">Recommended</a> <a class="icon" style="font-size:15px;">&#9776;</a>
+		</div><!--============================= End Navbar ======================================-->
+		<!--============================= Start SlideShow =================================-->
+		<div class="slideShowSpace">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="slides">
+						<div class="balls unselectable hidden-xs">
+							<div class="ball clicked" id="ball1"></div>
+							<div class="ball unclicked" id="ball2"></div>
+							<div class="ball unclicked" id="ball3"></div>
+							<div class="ball unclicked" id="ball4"></div>
+							<div class="ball unclicked" id="ball5"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div><!--============================= End SlideShow ===================================-->
+		<!--============================= Start Page content ==============================-->
+		<div class="pageContent">
+			<!--=================== Start Action Section ===================-->
+			<div class="action allSections">
+				<div class="row">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-10">
+						<div class="head unselectable">
+							<div class="title">
+								Action and Adventure
+							</div>
+							<div class="more">
+								More
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 col-xs-0"></div>
+					<div class="col-md-10 col-xs-12">
+						<div class="putHere"></div>
+						<div class="carousel" data-flickity='{ "cellAlign": "left" , "prevNextButtons": false, "pageDots": false}'>
+							<div class="carousel-cell" id="card0">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card1">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card2">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card3">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card4">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card5">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card6">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card7">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card8">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card9">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card10">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card11">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card12">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card13">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card14">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card15">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card16">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card17">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card18">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card19">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1 col-xs-0"></div>
+				</div>
+			</div><!--=================== End Action Section ===================-->
+			<!--=================== Start Casual Section ===================-->
+			<div class="casual allSections">
+				<div class="row">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-10">
+						<div class="head unselectable">
+							<div class="title">
+								Casual
+							</div>
+							<div class="more">
+								More
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 col-xs-0"></div>
+					<div class="col-md-10 col-xs-12">
+						<div class="carousel" data-flickity='{ "cellAlign": "left", "initialIndex": 2, "prevNextButtons": false, "pageDots": false }'>
+							<div class="carousel-cell" id="card0">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card1">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card2">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card3">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card4">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card5">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card6">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card7">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card8">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card9">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card10">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card11">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card12">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card13">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card14">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card15">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card16">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card17">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card18">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card19">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1 col-xs-0"></div>
+				</div>
+			</div><!--=================== End Casual Section =====================-->
+			<!--=================== Start Puzzles Section ===================-->
+			<div class="puzzle allSections">
+				<div class="row">
+					<div class="col-xs-1"></div>
+					<div class="col-xs-10">
+						<div class="head unselectable">
+							<div class="title">
+								Puzzle
+							</div>
+							<div class="more">
+								More
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-1"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1 col-xs-0"></div>
+					<div class="col-md-10 col-xs-12">
+						<div class="carousel" data-flickity='{ "cellAlign": "left", "initialIndex": 5 , "prevNextButtons": false, "pageDots": false}'>
+							<div class="carousel-cell" id="card0">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card1">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card2">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card3">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card4">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card5">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card6">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card7">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card8">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card9">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card10">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card11">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card12">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card13">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card14">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card15">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card16">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card17">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card18">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-cell" id="card19">
+								<div class="card">
+									<div class="cardContainer">
+										<div class="image"></div>
+										<div class="gametitle">
+											text
+										</div>
+										<div class="publisher">
+											text
+										</div>
+										<div class="rate">
+											<div class="star s1"></div>
+											<div class="star s2"></div>
+											<div class="star s3"></div>
+											<div class="star s4"></div>
+											<div class="star s5"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-1 col-xs-0"></div>
+				</div>
+			</div><!--=================== End Puzzles Section ===================-->
+		</div><!--============================= End Page content ================================-->
+		<!--============================= Start Left Menu =================================-->
+		<div class="splitscreen">
+			<div class="division1">
+				<a class="normaltext" href="https://example.com/login" id="alogin">
+				<div class="box login">
+					<div class="ico"></div>
+					<div class="sideContainer text">
+						Login
+					</div>
+				</div></a>
+				<div class="box Categories">
+					<div class="sideContainer text">
+						Catigories
+					</div>
+				</div>
+				<div class="box highlights">
+					<div class="sideContainer text">
+						Highlights
+					</div>
+				</div>
+				<div class="box top">
+					<div class="sideContainer text">
+						Top
+					</div>
+				</div>
+				<div class="box new">
+					<div class="sideContainer text">
+						New
+					</div>
+				</div>
+				<div class="box recommended">
+					<div class="sideContainer text">
+						Recommended
+					</div>
+				</div><a class="normaltext" href="https://example.com/help" id="ahelp">
+				<div class="box help">
+					<div class="ico"></div>
+					<div class="sideContainer text">
+						Help
+					</div>
+				</div></a>
+			</div>
+			<div class="division2 hide"></div>
+		</div><!--============================= End Left Menu ===================================-->
+	</div>
+</body>
+</html>
